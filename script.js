@@ -14,7 +14,7 @@ function escribir(){
     if(i < mensaje.length){
         document.getElementById("frase").textContent += mensaje[i];
         i++;
-        setTimeout(escribir,100);
+        setTimeout(escribir,300);
     }
 }
 
@@ -42,4 +42,5 @@ function revelar(){
     document.getElementById("final").textContent =
     "Y si el destino me preguntara otra vez... te elegiría sin dudarlo. ❤️";
 }
+
 
