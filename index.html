@@ -15,11 +15,19 @@
     <button id="btn" onclick="revelar()">Haz clic aquí</button>
     <h2 id="final"></h2>
 </div>
-<audio autoplay loop>
-  <source src="song.mp3" type="audio/mpeg">
-</audio>
+<audio id="musica" src="song.mp3" loop></audio>
 
 
 <script src="script.js"></script>
+<script>
+document.addEventListener("click", function iniciarMusica(){
+    const audio = document.getElementById("musica");
+    audio.play();
+
+    // evita que se ejecute más veces
+    document.removeEventListener("click", iniciarMusica);
+});
+</script>
 </body>
 </html>
+
