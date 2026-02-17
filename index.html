@@ -11,23 +11,30 @@
 
 <div class="contenido">
     <h1 id="frase"></h1>
-    <p id="contador"></p>
-    <button id="btn" onclick="revelar()">Haz clic aquí</button>
+    
+    <div class="contador-box">
+        <p id="contador"></p>
+        <img src="imagen.jpeg" id="foto" class="mini-img">
+    </div>
+
+    <button id="btn" onclick="revelar()">Haz clic para continuar</button>
     <h2 id="final"></h2>
 </div>
+
 <audio id="musica" src="song.mp3" loop></audio>
 
-
 <script src="script.js"></script>
+
 <script>
+// Música al primer clic en cualquier parte
 document.addEventListener("click", function iniciarMusica(){
     const audio = document.getElementById("musica");
+    audio.volume = 0.3; // volumen suave
     audio.play();
 
-    // evita que se ejecute más veces
     document.removeEventListener("click", iniciarMusica);
 });
 </script>
+
 </body>
 </html>
-
