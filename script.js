@@ -37,8 +37,9 @@ actualizarContador();
 
 function revelar(){
     document.getElementById("final").textContent =
-    "Y si el destino me preguntara otra vez... te elegiría sin dudarlo. ❤️";
+    "Y si el destino me preguntara otra vez... te elegiría sin dudarlo. ❤️LYA❤️";
 }
+
 
 
 
