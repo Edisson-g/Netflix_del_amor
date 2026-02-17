@@ -1,9 +1,6 @@
 let mensaje = `De los 8 mil millones de personas en el mundo… terminé encontrándote a ti.
-Y entre tantas rutas posibles, tantas vidas cruzándose sin mirarse,
-el destino decidió que nuestros caminos coincidieran. 
+Y entre tantas rutas posibles, el destino decidió que nuestros caminos coincidieran. 
 
-No fue ruido.
-No fue prisa.
 Fue como si el tiempo caminara más despacio solo para que pudiera verte llegar.
 
 Porque entre infinitas posibilidades,
@@ -42,5 +39,6 @@ function revelar(){
     document.getElementById("final").textContent =
     "Y si el destino me preguntara otra vez... te elegiría sin dudarlo. ❤️";
 }
+
 
 
