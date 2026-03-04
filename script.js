@@ -24,7 +24,7 @@ escribir();
 
 
 // FECHA
-let fechaInicio = new Date("2022-08-17");
+let fechaInicio = new Date("2022-07-17");
 
 function actualizarContador(){
 
@@ -49,3 +49,4 @@ function revelar(){
     document.getElementById("final").textContent =
     "Y si el destino me preguntara otra vez... te elegiría sin dudarlo. ❤️LYA❤️";
 }
+
